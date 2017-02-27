@@ -1,0 +1,38 @@
+{
+  "name": "static-path-replace-loader",
+  "version": "0.0.4",
+  "description": "replace static resource url path for differents envs in js/tpl/files",
+  "keywords": [
+    "webpack",
+    "loader",
+    "path"
+  ],
+  "homepage": "https://github.com/shanggqm/static-path-replace-loader",
+  "author": {
+    "name": "shanggqm",
+    "email": "shanggqm@126.com",
+    "url": "https://github.com/shanggqm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shanggqm/static-path-replace-loader.git"
+  },
+  "main": "index.js",
+  "peerDependencies": {
+    "webpack": "^1.4.3"
+  },
+  "dependencies": {
+    "loader-utils": "^0.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^0.8.1",
+    "jscs": "^1.6.2"
+  },
+  "scripts": {
+    "test": "eslint index.js && jscs index.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
